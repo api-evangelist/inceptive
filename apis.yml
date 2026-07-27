@@ -1,8 +1,26 @@
 aid: inceptive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inceptive.png
 name: Inceptive
-description: Inceptive is a company surfaced as a portfolio company of a16z, obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Inceptive is an AI biotechnology company founded in 2021 by transformer co-author Jakob
+  Uszkoreit and Stanford biochemist Rhiju Das, building foundation models of life to rationally design
+  sequence-based medicines such as mRNA, siRNA, ASOs, and peptides. The company pairs large-scale deep
+  learning with high-throughput in-house wet-lab experiments in a tight design-build-test loop, then
+  licenses successful molecules to pharmaceutical partners. Inceptive is headquartered in Palo Alto with
+  offices in Berlin and Zurich, is backed by a16z Bio + Health, Obvious Ventures, NVentures (NVIDIA),
+  and S32, and has announced strategic collaborations including a multi-year agreement with Alnylam
+  Pharmaceuticals. Inceptive is a research-partner biotech and does not currently publish a public API,
+  developer portal, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/inceptive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Biotechnology
+- RNA
+- Drug Discovery
+- Machine Learning
+- Foundation Models
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/inceptive-domain-security.yml
 - type: Website
-  url: https://inceptive.life
+  url: https://inceptive.com
+- type: PrivacyPolicy
+  url: https://inceptive.com/privacy-policy
+- type: Blog
+  url: https://inceptive.com/#media
+- type: LinkedIn
+  url: https://www.linkedin.com/company/inceptivenucleics/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
