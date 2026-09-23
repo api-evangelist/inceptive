@@ -1,0 +1,27 @@
+# Front Door AI Index — inceptive — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: inceptive
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: inceptive.com
+  final_host: inceptive.com
+  ownership: own
+  owner: inceptive
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 26.75
+  words: 785
+  tiers:
+    agentic: 0
+    core: 21
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 15
+    foundation model: 4
+    deep learning: 2
