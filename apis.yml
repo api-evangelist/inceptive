@@ -49,7 +49,7 @@ tags:
 - Biotechnology
 - RNA
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Life Sciences
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Foundation Models
 - Life Sciences
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
